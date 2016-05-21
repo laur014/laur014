@@ -14,7 +14,7 @@
  .btn-success{
     color:#fff;
     background-color:#D3E3E5;
-    border-color:#D3E3E5
+    border-color:#D3E3E5;
     }
 
 .btn-success.focus,.btn-success:focus{
@@ -25,7 +25,7 @@
 
 .btn-success:hover{
     color:#fff;
-    background-color:#449d44;
+    background-color:#bdccce;
     border-color:#398439
     }
 
