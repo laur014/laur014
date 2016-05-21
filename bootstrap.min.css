@@ -26,11 +26,11 @@
 .btn-success:hover{
     color:#fff;
     background-color:#bdccce;
-    border-color:#398439
+    border-color:#bdccce;
     }
 
 .btn-success.active,.btn-success:active,.open>.dropdown-toggle.btn-success{
-    color:#fff;
+    color:#000;
     background-color:#449d44;
     border-color:#398439
     }
