@@ -3,7 +3,16 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+@font-face {
+    font-family: calli;
+    src: url(calligraffitti.ttf);
 
+}
+
+@font-face{
+    font-family: rale;
+    src: url(raleway.light.ttf);
+}
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -15,20 +24,22 @@ body {
 /* Custom page header */
 .header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #CFE0E3;
+  font-family: rale;
 }
 /* Make the masthead heading the same height as the navigation */
-.header h3 {
+.header h2 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
+  font-family: rale;
 }
 
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #CFE0E3;
 }
 
 /* Customize container */
@@ -44,7 +55,8 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #CFE0E3;
+  font-family: rale;
 }
 .jumbotron .btn {
   padding: 14px 24px;
