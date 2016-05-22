@@ -29,6 +29,17 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <style> 
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    -moz-column-width: 200px; /* Firefox */
+    column-width: 200px;
+}
+</style>
   </head>
 <!--
 WAAROM doe ik dit
@@ -45,54 +56,62 @@ CONTACT wanneer maken we kennis met elkaa
 -->
 
   <body>
-
     <div class="container">
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation"><a href="index.html">Waarom</a></li>
-            <li role="presentation" class="active"><a href="wat.html">Wat</a></li>
+            <li role="presentation" class="active"><a href="#">Wat</a></li>
             <li role="presentation"><a href="hoe.html">Hoe</a></li>
             <li role="presentation"><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
-        <h2>Van Der Werff</h2>
+        <img src="finalogo.jpg" alt="Logo" width=17% height=17%>
       </div>
 
       <div class="jumbotron">
-        <h1><i>Specialisten in professionalisering in de gastvrijheidsbranche.</i></h1>
-        <p class="lead">Coaching, curing en conceptontwikkeling.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Read more..</a></p>
+      <p id="titelpagina">Wat kan ik<br>
+        voor u betekenen?</p>
+        <p id="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p><a class="btn btn-lg btn-success" href="#wat" role="button">>></a></p>
       </div>
       
-      
-      <!--Ik kan u adequaat van dienst zijn op de volgende gebieden:
-Coaching –  ik help u inzicht te krijgen in uw persoonlijke keuzes
-Curing – we maken samen uw bedrijf gezond
-Conceptontwikkeling – ik help u een uniek en onderscheidend bedrijf neer te zetten in de hospitalitybranche
-
-
-WIE ben ik
- 
-Piet van der Werff (1969) , heeft al ruim 40 jaar een enorme voorliefde voor de gastronomie. Toen hij op zijn 6e zijn eerste slak at aan het Italiaanse Lago Maggiore, ontwaakte zijn passie voor (slow) food.
-Na 12 intensieve jaren in de horecasales bij Lindenhoff, sloeg hij in 2014 een nieuwe weg in en deelt sindsdien met ongetemd enthousiasme zijn kennis en ervaring met (horeca)ondernemers. Hierbij stelt Piet zijn omvangrijke netwerk open voor een ieder die graag voorop wil lopen met zijn of haar (horeca)bedrijf.
-Naast de “eerste hulp voor horecaondernemers” houdt Piet zich bezig met het selecteren en leveren van gastronomische producten uit Italië en Spanje--->
-
-      <div class="row marketing">
+          <a name="wat"> <h1>Wat?</h1> </a>
+    <div class="row marketing">
         <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+          <p id ="subhead">Subheading</p>
+          <p id ="subtekst">Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+          <p id = "subhead">Subheading</p>
+          <p id = "subtekst">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          <p id = "subhead">Subheading</p>
+          <p id = "subtekst">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
       </div>
-
+<hr>
+        <a name="diensten"> <h1>Diensten</h1></a>
+        <div class="row marketing">
+        <div class="col-lg-6">
+          <ul>
+          <li><p id ="subhead">Coaching</p></li>
+            <ul style="list-style-type:none">
+                <li><p id ="subtekst">Ik help u <b>inzicht</b> te krijgen in uw persoonlijke keuzes</p></li>
+            </ul>
+          <li><p id = "subhead">Curing</p></li>
+            <ul style="list-style-type:none">
+                <li><p id = "subtekst">We maken samen uw bedrijf <b>gezond</b></p></li>
+            </ul>
+          <li><p id = "subhead">Conceptontwikkeling</p></li>
+              <ul style="list-style-type:none">
+                <li><p id = "subtekst">Ik help u een <b>uniek en onderscheidend</b> bedrijf neer te zetten in de hospitalitybranche</p></li>
+                </ul>
+           </ul>
+            <p><a class="btn btn-lg btn-success" href="wat.html" role="button">navigatie menu</a></p>
+        </div>
+      </div>
       <footer class="footer">
-        <p>&copy; 2015 Company, Inc.</p>
+        <p>Van Der Werff Hospitality -  Eikstraat 28, 3581XL, Utrecht - +3(12)0301234567 - +31(60)12345678</p>
       </footer>
 
     </div> <!-- /container -->
