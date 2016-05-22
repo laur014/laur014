@@ -36,13 +36,14 @@ body {
  #infotekst {
     font-size:15px;
     font:rale;
-    color:#F1F8FA;
+    color:#fdfdfd;
     background-color:#CFE0E3;
     padding:3px;
 }
 #listtitel{
     color:#269abc;
     }
+    
     
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
